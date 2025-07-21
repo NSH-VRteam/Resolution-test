@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.8/20986
-// Filename: NSH-UI_percentage.ggsk
-// Generated 2025-07-21T19:06:11
+// Filename: 
+// Generated 2025-07-21T19:25:16
 
 function pano2vrSkin(player,base) {
 	player.addVariable('Room_visibility_1F', 2, false, { ignoreInState: 0  });
@@ -6188,7 +6188,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 0%;';
+		hs+='bottom : 0.09%;';
 		hs+='height : 100%;';
 		hs+='left : 0%;';
 		hs+='position : absolute;';
@@ -6579,7 +6579,7 @@ function pano2vrSkin(player,base) {
 				newLogicStateSize = 2;
 			}
 			else if (
-				((player.getVariableValue('Potrait_view') == true))
+				((player.getVariableValue('Potrait_view') == false))
 			)
 			{
 				newLogicStateSize = 3;
